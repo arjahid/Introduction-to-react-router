@@ -3,13 +3,8 @@
 const About = () => {
     return (
         <div>
-           
-            <nav>
-                <a href="/">Home</a>
-                <a href="/about">About</a>
-                <a href="contact">Contact</a>
-            </nav>
-            <h1>I am forom about</h1>
+            <h2>I am from about</h2>
+            <h3>What you want to know?</h3>
         </div>
     );
 };
