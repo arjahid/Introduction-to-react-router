@@ -10,11 +10,13 @@ import UserDetails from "./Components/UserDetails/UserDetails";
 
 import Posts from "./Components/Posts/Posts";
 import PostDetails from "./Components/PostDetails/PostDetails";
+import Error from "./Components/ErrorPage/Error";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+    errorElement:<Error></Error>,
     children: [
       { path: "about", element: <About /> },
       { path: "contact", element: <Contact /> },
