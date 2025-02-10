@@ -1,0 +1,23 @@
+npm create vite@latest name-of-your project
+npm install react-router-dom
+npm install localgorage match-sorter sort-by
+npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwind init -p
+
+//
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    ],
+//
+//index.css...
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+//
+
+npm i -D daisyui@latest
+//plugins:[
+require('daisyui')
+]
+node:true
